@@ -1,0 +1,13 @@
+RewriteEngine on
+
+
+RewriteRule ^([a-zA-Z0-9-_]+)$ ?mod=user&controller=index&action=$1
+
+
+
+
+
+
+
+
+

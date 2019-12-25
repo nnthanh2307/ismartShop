@@ -1,0 +1,50 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background: #4CAF50 ;
+}
+.login h1{
+    text-align: center;
+    padding: 10px 0 20px 0;
+}
+.login{
+    width: 450px;
+    background: white;
+    padding: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+input[type=text], input[type=password], input[type=submit], input[type=email]{
+    display: block;
+    width: 100%;
+    line-height: 35px;
+    background:  rgb(250, 247, 247);
+    border-radius: 4px;
+    margin: 15px 0;
+    border: 0;
+    padding: 0 15px;
+    text-align: center;
+}
+input[type=submit]
+{
+    background: #4CAF50;
+    color: white;
+    font-weight: bold;
+}
+input[type=submit]:hover{
+    background: rgb(0, 241, 40);
+    color: black;
+}
+.repass{
+    text-decoration: none;
+}
+.error{
+    color: red;
+    padding: 0px 0;
+    
+}
